@@ -10,27 +10,6 @@
   </a>
 </div>
 
-<br/>
-
-<div align="center">
-
-![DePaul](https://img.shields.io/badge/MS%20Computer%20Science-DePaul%20University-7C3AED?style=for-the-badge&logo=google-scholar&logoColor=white)
-![Focus](https://img.shields.io/badge/Open%20To-Software%20Engineer%20%26%20AI%2FML-4F46E5?style=for-the-badge)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryatejanulu/)
-[![Email](https://img.shields.io/badge/Email-snulu1%40depaul.edu-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snulu1@depaul.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-surya--tejaN-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/surya-tejaN)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Suryateja__N-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Suryateja_N/)
-
-<br/>
-
-![Contributions](https://img.shields.io/badge/Contributions%20(last%20year)-547-7C3AED?style=for-the-badge&logo=github&logoColor=white)
-![Includes Private](https://img.shields.io/badge/Includes-Private%20%2B%20Org%20work-111827?style=for-the-badge)
-
-</div>
-
 ---
 
 ## About
@@ -274,35 +253,14 @@ Shipped production features across mobile + backend for a hormonal health consum
 
 ---
 
-## GitHub Analytics
+## Contribution Snake
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surya-tejaN&theme=radical" alt="Summary Stats" />
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-![Contributions](https://img.shields.io/badge/547-contributions%20(last%20year)-7C3AED?style=for-the-badge&logo=github&logoColor=white)
-![Private](https://img.shields.io/badge/includes-private%20%2B%20org%20work-111827?style=for-the-badge)
-
-<br/><br/>
-
-<a href="https://github.com/surya-tejaN">
-  <img src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/main/contrib-heatmap.svg" alt="Contribution heatmap" width="100%" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**547 contributions in the last year** · private + org commits included (KNOWN and other private systems)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
