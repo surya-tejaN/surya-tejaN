@@ -1,8 +1,8 @@
 {
   "username": "surya-tejaN",
-  "generated_at": "2026-08-22T05:24:07.614707Z",
-  "source": "public_scrape",
-  "total_from_page": 37,
+  "generated_at": "2026-08-22T05:37:29.132628Z",
+  "source": "graphql_private",
+  "total_from_page": 45,
   "days": [
     {
       "date": "2025-08-17",
@@ -811,13 +811,13 @@
     },
     {
       "date": "2026-01-25",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
     },
     {
       "date": "2026-01-26",
-      "count": 1,
-      "level": 2
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2026-01-27",
@@ -862,7 +862,7 @@
     {
       "date": "2026-02-04",
       "count": 1,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-02-05",
@@ -887,7 +887,7 @@
     {
       "date": "2026-02-09",
       "count": 1,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-02-10",
@@ -1156,12 +1156,12 @@
     },
     {
       "date": "2026-04-04",
-      "count": 1,
+      "count": 2,
       "level": 2
     },
     {
       "date": "2026-04-05",
-      "count": 9,
+      "count": 8,
       "level": 4
     },
     {
@@ -1207,7 +1207,7 @@
     {
       "date": "2026-04-14",
       "count": 1,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-04-15",
@@ -1262,7 +1262,7 @@
     {
       "date": "2026-04-25",
       "count": 2,
-      "level": 4
+      "level": 2
     },
     {
       "date": "2026-04-26",
@@ -1582,7 +1582,7 @@
     {
       "date": "2026-06-28",
       "count": 2,
-      "level": 4
+      "level": 2
     },
     {
       "date": "2026-06-29",
@@ -1851,25 +1851,25 @@
     },
     {
       "date": "2026-08-21",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
     },
     {
       "date": "2026-08-22",
-      "count": 0,
-      "level": 0
+      "count": 7,
+      "level": 4
     }
   ],
   "stats": {
-    "total_computed": 37,
-    "current_streak": 0,
+    "total_computed": 45,
+    "current_streak": 2,
     "longest_streak": 2,
     "best_day": {
       "date": "2026-03-13",
       "count": 15,
       "level": 4
     },
-    "active_days": 10,
+    "active_days": 12,
     "monthly": {
       "2025-08": 0,
       "2025-09": 0,
@@ -1883,7 +1883,7 @@
       "2026-05": 0,
       "2026-06": 2,
       "2026-07": 0,
-      "2026-08": 0
+      "2026-08": 8
     }
   }
 }
