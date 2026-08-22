@@ -154,23 +154,20 @@ def derive_stats(days):
 
 def main():
     username = USERNAME
-    token = (
-        os.environ.get("GH_CONTRIBUTIONS_PAT")
-        or os.environ.get("GH_TOKEN")
-        or os.environ.get("GITHUB_TOKEN")
-    )
+    pat = os.environ.get("GH_CONTRIBUTIONS_PAT")
     source = "public_scrape"
 
     print(f"Fetching contributions for {username}...")
-    if token:
+    if pat:
         try:
-            total, days, source = fetch_graphql(token, username)
-            print(f"GraphQL (private included): {total} contributions")
+            total, days, source = fetch_graphql(pat, username)
+            print(f"GraphQL via PAT (private included): {total} contributions")
         except Exception as exc:
-            print(f"GraphQL failed ({exc}), falling back to public scrape")
+            print(f"GraphQL with GH_CONTRIBUTIONS_PAT failed ({exc}), falling back to public scrape")
             html = fetch_html(username)
             total, days, source = parse_public(html)
     else:
+        print("GH_CONTRIBUTIONS_PAT not set — using public scrape only")
         html = fetch_html(username)
         total, days, source = parse_public(html)
 
