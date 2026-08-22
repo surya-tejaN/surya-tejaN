@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=180&section=header&text=Surya%20Teja%20Nulu&fontSize=42&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20%2F%20ML%20%7C%20Full-Stack&descAlignY=55&descSize=16&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=180&section=header&text=Surya%20Teja%20Nulu&fontSize=42&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20%2F%20ML%20Engineer&descAlignY=55&descSize=16&animation=fadeIn" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Software+Engineer+%7C+AI+%2F+ML;Building+production+systems+that+scale;MS+CS+%40+DePaul+%7C+Intern+%40+KNOWN">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Software+Engineer+%7C+AI+%2F+ML;Building+production+systems+that+scale;MS+CS+%40+DePaul+%7C+Intern+%40+KNOWN" alt="Typing SVG" />
+  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=90&lines=Software+Engineer+%7C+AI+%2F+ML+Engineer;Building+production+systems+that+scale;MS+CS+%40+DePaul+%7C+SWE+%2B+AI+Intern+%40+KNOWN">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=720&height=90&lines=Software+Engineer+%7C+AI+%2F+ML+Engineer;Building+production+systems+that+scale;MS+CS+%40+DePaul+%7C+SWE+%2B+AI+Intern+%40+KNOWN" alt="Typing SVG" />
   </a>
 </div>
 
@@ -15,21 +15,19 @@
 <div align="center">
 
 ![DePaul](https://img.shields.io/badge/MS%20Computer%20Science-DePaul%20University-7C3AED?style=for-the-badge&logo=google-scholar&logoColor=white)
-![SRM](https://img.shields.io/badge/B.Tech%20CSE-SRM%20IST-4F46E5?style=for-the-badge&logo=academia&logoColor=white)
-![Location](https://img.shields.io/badge/Chicago%2C%20IL-111827?style=for-the-badge&logo=googlemaps&logoColor=A78BFA)
+![Focus](https://img.shields.io/badge/Open%20To-Software%20Engineer%20%26%20AI%2FML-4F46E5?style=for-the-badge)
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=About.me&logoColor=A78BFA)](https://github.com/surya-tejaN)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryatejanulu/)
 [![Email](https://img.shields.io/badge/Email-snulu1%40depaul.edu-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snulu1@depaul.edu)
 [![GitHub](https://img.shields.io/badge/GitHub-surya--tejaN-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/surya-tejaN)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Suryateja__N-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Suryateja_N/)
 
 <br/>
 
-![Profile views](https://komarev.com/ghpvc/?username=surya-tejaN&label=Profile%20views&color=7c3aed&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/surya-tejaN?label=Followers&style=for-the-badge&color=4f46e5)
-![Stars](https://img.shields.io/github/stars/surya-tejaN?affiliation=owner&style=for-the-badge&color=6366f1)
+![Contributions](https://img.shields.io/badge/Contributions%20(last%20year)-547-7C3AED?style=for-the-badge&logo=github&logoColor=white)
+![Includes Private](https://img.shields.io/badge/Includes-Private%20%2B%20Org%20work-111827?style=for-the-badge)
 
 </div>
 
@@ -37,15 +35,15 @@
 
 ## About
 
-Software Engineer and AI Engineer focused on shipping **production-grade full-stack products**, scalable backend services, and intelligent systems. Currently building consumer health experiences at **KNOWN (Cyclical Inc)** while pursuing an **MS in Computer Science at DePaul University**.
+Software Engineer and AI / ML Engineer focused on shipping **production-grade full-stack products**, scalable backend services, and intelligent systems. Currently building consumer health experiences at **KNOWN (Cyclical Inc)** while pursuing an **MS in Computer Science at DePaul University**.
 
 I work across the stack — React / TypeScript on the client, FastAPI / Node / Supabase on the backend, and LLM / RAG / agent pipelines when product needs intelligence. I care about reliability, clean API boundaries, and iterating with real users in production.
 
 **Open To**
-- Software Engineer / Full-Stack / Backend roles
-- AI / ML Engineer roles (LLMs, RAG, agents, applied ML)
-- Summer 2027 internships and full-time opportunities
-- Open-source collaboration on systems, AI infra, and product engineering
+- **Software Engineer** (Full-Stack / Backend / Product Engineering)
+- **AI / ML Engineer** (LLMs, RAG, agents, applied ML)
+- Summer 2027 internships and full-time roles
+- Collaboration on systems, AI infra, and production product engineering
 
 ---
 
@@ -53,31 +51,26 @@ I work across the stack — React / TypeScript on the client, FastAPI / Node / S
 
 ### Languages
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,cpp,ts,js,swift,html,css&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=py,java,cpp,ts,js,html,css&theme=dark" />
 </p>
 
 ### Frontend
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" />
 </p>
 
 ### Backend & Databases
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,postgres,supabase,firebase&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,postgres,supabase&theme=dark" />
 </p>
 
 ### Cloud, DevOps & Tooling
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions,git,vercel,postman&theme=dark" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions,git,vercel&theme=dark" />
 </p>
+
+### AI / ML
+`LLMs` `RAG` `AI Agents` `PyTorch` `scikit-learn` `Pandas` `NumPy`
 
 ---
 
@@ -85,11 +78,26 @@ I work across the stack — React / TypeScript on the client, FastAPI / Node / S
 
 | Domain | Proficiency | Details |
 | --- | --- | --- |
-| Large Language Models | Advanced | Prompt workflows, production proxies, PII sanitization, streaming inference patterns |
-| RAG Systems | Advanced | Retrieval pipelines, rule-based safety gates, personalized recommendation + fallback tiers |
-| AI Agents | Intermediate–Advanced | Azure AI Foundry agents, multi-agent JAC systems, tool-calling workflows |
-| Classical ML / DL | Intermediate–Advanced | PyTorch, scikit-learn, LSTM / CNN forecasting, feature engineering, evaluation |
+| Large Language Models | Advanced | Prompt workflows, production proxies, PII sanitization, streaming inference |
+| RAG Systems | Advanced | Retrieval pipelines, rule-based safety gates, personalized + fallback tiers |
+| AI Agents | Intermediate–Advanced | Azure AI Foundry agents, multi-agent JAC systems, tool-calling |
+| Classical ML / DL | Intermediate–Advanced | PyTorch, scikit-learn, forecasting models, evaluation |
 | Applied Product AI | Advanced | Insights generation, compatibility engines, analytics-informed personalization |
+
+---
+
+## Private & Organization Work
+
+Most of my recent shipping happens in **private / org repos** (this is why GitHub profile shows **547** contributions, while public-only widgets look lighter).
+
+| Work | Visibility | Focus |
+| --- | --- | --- |
+| **KNOWN App** (`knowncycledev/known_app`) | Private / org | Production React + Capacitor + Supabase; Circles, Cycle Report, notifications, AI proxy / PII |
+| **SyncCore** | Private | Distributed real-time collaboration engine (CRDTs, WebSockets) |
+| **FastServe** | Private | Production-style LLM inference server (batching, KV-cache, streaming) |
+| **Legal / AI product work** | Mixed | Marketplace + AI-assisted legal product experiments |
+
+Public highlights: [MonArk-v2](https://github.com/surya-tejaN/MonArk-v2) · [agentforge-ai](https://github.com/surya-tejaN/agentforge-ai) · [legalhubly](https://github.com/surya-tejaN/legalhubly)
 
 ---
 
@@ -105,19 +113,17 @@ AI-powered full-stack dating / relationship platform with backend systems, real-
 | --- | --- |
 | **Stack** | Next.js, React, TypeScript, FastAPI, PostgreSQL, Supabase, LLMs |
 | **Scale** | Multi-user MVP with auth, sessions, and recommendation workflows |
-| **Performance** | Relational schema tuned for real-time features and query maintainability |
+| **Performance** | Relational schema tuned for real-time features and maintainability |
 | **Security** | Auth, session management, secure route protection |
 | **Impact** | Founding-engineer MVP from zero → shippable product |
 | **Repository** | [surya-tejaN/MonArk-v2](https://github.com/surya-tejaN/MonArk-v2) |
-
-Built as **Founding Software Engineer Intern**. Designed REST APIs, authentication, database architecture, and an LLM compatibility engine behind a clean service boundary so AI inference stays decoupled from core business logic.
 
 </details>
 
 <br/>
 
 <details>
-<summary><b>KNOWN App — Hormonal Health Tracker (Production)</b></summary>
+<summary><b>KNOWN App — Hormonal Health Tracker (Production · Private/Org)</b></summary>
 <br/>
 
 Consumer iOS / web product engineering at Cyclical Inc — Circles, Cycle Report, notifications, Pro / IAP, and AI-assisted insights.
@@ -129,9 +135,7 @@ Consumer iOS / web product engineering at Cyclical Inc — Circles, Cycle Report
 | **Performance** | Optimistic UI, edge functions, mobile sync pipelines |
 | **Security** | PII scrubbing before third-party LLM calls; auth entitlement fixes |
 | **Impact** | Restored Google Sign-In reliability; shipped tips/rituals swipe UX; circle + report notifications |
-| **Repository** | [knowncycledev/known_app](https://github.com/knowncycledev/known_app) *(company)* |
-
-Owned end-to-end product engineering: feature delivery, QA bug triage, SQL / edge function deploys, and mobile release sync.
+| **Repository** | Private org — `knowncycledev/known_app` |
 
 </details>
 
@@ -140,8 +144,6 @@ Owned end-to-end product engineering: feature delivery, QA bug triage, SQL / edg
 <details>
 <summary><b>Legalhubly — AI Legal Marketplace</b></summary>
 <br/>
-
-AI-powered legal platform connecting clients with lawyers — solo-built product and marketplace workflows.
 
 | | |
 | --- | --- |
@@ -160,15 +162,13 @@ AI-powered legal platform connecting clients with lawyers — solo-built product
 <summary><b>AgentForge AI — Multi-Agent Software System</b></summary>
 <br/>
 
-Multi-agent AI system built with JAC that autonomously designs, builds, reviews, and secures software using real LLM reasoning.
-
 | | |
 | --- | --- |
 | **Stack** | Python, JAC, LLMs, agent orchestration |
 | **Scale** | Multi-agent design / build / review / secure loop |
 | **Performance** | Real LLM reasoning across specialist agents |
 | **Security** | Dedicated review / secure agent stage |
-| **Impact** | Demonstrates agentic software engineering workflows |
+| **Impact** | Agentic software engineering workflows |
 | **Repository** | [surya-tejaN/agentforge-ai](https://github.com/surya-tejaN/agentforge-ai) |
 
 </details>
@@ -176,57 +176,34 @@ Multi-agent AI system built with JAC that autonomously designs, builds, reviews,
 <br/>
 
 <details>
-<summary><b>SyncCore — Distributed Real-Time Collaboration Engine</b></summary>
+<summary><b>SyncCore — Distributed Real-Time Collaboration Engine (Private)</b></summary>
 <br/>
-
-Offline-first synchronization engine using CRDTs for deterministic state convergence across distributed clients.
 
 | | |
 | --- | --- |
 | **Stack** | CRDTs, WebSockets, distributed systems testing |
 | **Scale** | Multi-client collaboration with presence + optimistic updates |
 | **Performance** | Convergence under packet loss, duplicates, delay, concurrent edits |
-| **Security** | Deterministic conflict resolution model |
+| **Security** | Deterministic conflict resolution |
 | **Impact** | Production-style collaboration infra design |
-| **Repository** | Private / coursework portfolio project |
+| **Repository** | Private |
 
 </details>
 
 <br/>
 
 <details>
-<summary><b>FastServe — Production-Grade LLM Inference Server</b></summary>
+<summary><b>FastServe — Production-Grade LLM Inference Server (Private)</b></summary>
 <br/>
-
-LLM inference server with continuous batching, async scheduling, token streaming, and KV-cache management.
 
 | | |
 | --- | --- |
 | **Stack** | Python, async scheduling, streaming inference |
 | **Scale** | Concurrent request batching |
-| **Performance** | Benchmarks for TTFT, throughput, latency, GPU utilization |
+| **Performance** | TTFT, throughput, latency, GPU utilization benchmarks |
 | **Security** | Memory-aware request scheduling |
 | **Impact** | Hands-on LLM systems engineering |
-| **Repository** | Private / coursework portfolio project |
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>SmartMealPlanner</b></summary>
-<br/>
-
-Meal planning application built in Java with structured domain modeling and planner workflows.
-
-| | |
-| --- | --- |
-| **Stack** | Java |
-| **Scale** | Planner domain model |
-| **Performance** | Deterministic planning logic |
-| **Security** | Local app boundaries |
-| **Impact** | Clean OOP / systems practice |
-| **Repository** | [surya-tejaN/SmartMealPlanner](https://github.com/surya-tejaN/SmartMealPlanner) |
+| **Repository** | Private |
 
 </details>
 
@@ -235,24 +212,22 @@ Meal planning application built in Java with structured domain modeling and plan
 ## Experience
 
 ### Software Engineer Intern — KNOWN (Cyclical Inc)
-**Jun 2026 – Present · Chicago, IL**
+**Jun 2026 – Present**
 
 Shipped production features across mobile + backend for a hormonal health consumer app.
 
-- Built swipeable content recommendation UX in React / TypeScript / Supabase with gesture interactions and persistent feedback
-- Diagnosed and fixed a production Google Sign-In / entitlements failure across client + backend
+- Built swipeable content recommendation UX in React / TypeScript / Supabase
+- Fixed production Google Sign-In / entitlements failure across client + backend
 - Implemented PII sanitization for an internal Gemini proxy before third-party LLM calls
-- Designed two-tier personalization (personalized + rule-based fallback) for insights delivery
+- Designed two-tier personalization (personalized + rule-based fallback) for insights
 - Analyzed production engagement data in SQL and presented insights to product stakeholders
 
-`React` `TypeScript` `Supabase` `Capacitor` `FCM` `LLMs` `SQL` `PostHog`
+`React` `TypeScript` `Supabase` `Capacitor` `FCM` `LLMs` `SQL`
 
 <br/>
 
 ### Founding Software Engineer Intern — Monark
 **Jan 2026 – Mar 2026**
-
-Founding engineer for an AI-powered relationship platform MVP.
 
 - Built full-stack MVP with Next.js, React, TypeScript, FastAPI, PostgreSQL, and Supabase
 - Designed REST APIs, authentication, sessions, and secure route protection
@@ -268,7 +243,6 @@ Founding engineer for an AI-powered relationship platform MVP.
 
 - Built and evaluated ML pipelines with Python / scikit-learn
 - Improved model performance ~10–15% via feature engineering and tuning
-- Delivered EDA insights and production-quality code in Agile sprints
 
 `Python` `scikit-learn` `Pandas` `Git`
 
@@ -284,27 +258,8 @@ Founding engineer for an AI-powered relationship platform MVP.
 | **Prize Winner — Microsoft Azure AI Agent Open Hack 2025** | Deployed Azure AI Foundry agent with memory, tools, and real workflows |
 | **IEEE Publication — Jun 2026** | Safer Respiratory Triage Using RAG and Rule-Based Safety Gates |
 | **IEEE Publication — Jul 2024** | Air Quality Analysis Using Deep Learning |
-| **B.Tech GPA 3.9 / 4.0** | SRM Institute of Science and Technology |
 
 </div>
-
----
-
-## Certifications
-
-### AWS
-![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner%20%2F%20Learning-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
-
-### Oracle
-![Oracle](https://img.shields.io/badge/Oracle-Database%20%2F%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-### NPTEL
-![NPTEL](https://img.shields.io/badge/NPTEL-Computer%20Science-7C3AED?style=for-the-badge)
-
-### Cisco
-![Cisco](https://img.shields.io/badge/Cisco-Networking%20Fundamentals-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-
-> Add exact badge links as certificates are verified on Credly / provider portals.
 
 ---
 
@@ -323,8 +278,8 @@ Founding engineer for an AI-powered relationship platform MVP.
 ## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=surya-tejaN&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=818CF8&text_color=E5E7EB&ring_color=7C3AED&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=surya-tejaN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api?username=surya-tejaN&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=818CF8&text_color=E5E7EB&ring_color=7C3AED&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=surya-tejaN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&count_private=true" alt="Top Languages" />
 </div>
 
 <br/>
@@ -333,12 +288,11 @@ Founding engineer for an AI-powered relationship platform MVP.
   <img src="https://streak-stats.demolab.com?user=surya-tejaN&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" alt="GitHub Streak" />
 </div>
 
----
-
-## GitHub Trophies
+<br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=surya-tejaN&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surya-tejaN&theme=radical" alt="Summary Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surya-tejaN&theme=radical" alt="Repos per language" />
 </div>
 
 ---
@@ -352,14 +306,16 @@ Founding engineer for an AI-powered relationship platform MVP.
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=surya-tejaN&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=818CF8&text_color=E5E7EB&include_all_commits=true&count_private=true&hide=contribs&show=reviews,prs,issues,commits" height="1" width="1" alt="" />
-</div>
 
-> GitHub reports **500+ contributions in the last year** on the profile overview (including private / org work such as `knowncycledev/known_app`). Widgets above use the public API with `count_private=true` where supported.
+**547 contributions in the last year** · includes private + org commits (KNOWN and other private systems)
+
+</div>
 
 ---
 
 ## Contribution Snake
+
+> Public-grid snake only. Private / org commits (bulk of the **547**) do not appear here unless a private-access token is configured in the workflow.
 
 <div align="center">
   <picture>
@@ -374,24 +330,27 @@ Founding engineer for an AI-powered relationship platform MVP.
 ## Current Focus
 
 ```yaml
+target_roles:
+  - Software Engineer (Full-Stack / Backend / Product)
+  - AI / ML Engineer (LLMs, RAG, Agents, Applied ML)
+
 learning:
   - Distributed systems & system design
   - Production LLM infra (batching, KV-cache, evals)
-  - iOS / Capacitor shipping discipline
+  - Mobile shipping discipline (Capacitor / iOS)
 
 building:
-  - KNOWN production features (notifications, Cycle Report, Circles)
-  - AI-assisted product experiences with safe PII boundaries
-  - Portfolio systems (SyncCore / FastServe)
+  - KNOWN production features (private/org)
+  - Safe AI product surfaces (PII boundaries, proxies)
+  - Private systems work (SyncCore / FastServe)
 
 exploring:
   - Multi-agent software engineering
-  - RAG + rule-gated clinical / safety workflows
+  - RAG + rule-gated safety workflows
   - Real-time collaboration engines
 
 open_to:
-  - SWE / Full-Stack / Backend / AI Engineer roles
-  - Summer 2027 internships & full-time opportunities
+  - SWE and AI/ML internships / full-time (Summer 2027+)
 ```
 
 ---
@@ -404,7 +363,6 @@ open_to:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-suryatejanulu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suryatejanulu/)
 [![GitHub](https://img.shields.io/badge/GitHub-surya--tejaN-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/surya-tejaN)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Suryateja__N-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Suryateja_N/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-GitHub%20Profile-7C3AED?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/surya-tejaN)
 
 </div>
 
@@ -412,7 +370,7 @@ open_to:
 
 <div align="center">
 
-**Ship fast. Measure honestly. Iterate in production.**
+**Software Engineer · AI / ML · Ship in production.**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=100&section=footer" width="100%"/>
 
