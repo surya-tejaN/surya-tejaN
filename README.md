@@ -277,18 +277,6 @@ Shipped production features across mobile + backend for a hormonal health consum
 ## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=surya-tejaN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&count_private=true&include_all_commits=true" alt="Most Used Languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=surya-tejaN&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&count_private=true" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surya-tejaN&theme=radical" alt="Summary Stats" />
 </div>
 
@@ -297,14 +285,14 @@ Shipped production features across mobile + backend for a hormonal health consum
 ## Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=surya-tejaN&bg_color=0d1117&color=a78bfa&line=818cf8&point=c4b5fd&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/main/contrib-heatmap.svg" alt="Contribution heatmap (private + org included)" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
 
-**547 contributions in the last year** · includes private + org commits (KNOWN and other private systems)
+**547 contributions in the last year** · private + org commits included (KNOWN and other private systems)
 
 </div>
 

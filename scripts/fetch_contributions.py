@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 fetch_contributions.py
-Scrapes the public (no-token) contribution calendar fragment GitHub serves at
-https://github.com/users/<username>/contributions and writes data/contributions.json
-with the raw daily counts plus a few derived stats used by the info card / heatmap.
+Fetches contribution calendar data for the profile heatmap.
+
+Uses GitHub GraphQL (viewer) when GH_TOKEN / GITHUB_TOKEN is set — includes
+private + org contributions. Falls back to the public contributions page scrape.
 """
 import json
 import os
@@ -15,8 +16,70 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = os.environ.get("GH_USERNAME", "surya-tejaN")
-URL = f"https://github.com/users/{USERNAME}/contributions"
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
+GRAPHQL_URL = "https://api.github.com/graphql"
+
+QUERY = """
+query($from: DateTime!, $to: DateTime!) {
+  viewer {
+    login
+    contributionsCollection(from: $from, to: $to) {
+      contributionCalendar {
+        totalContributions
+        weeks {
+          contributionDays {
+            date
+            contributionCount
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+def fetch_graphql(token: str, username: str):
+    now = datetime.utcnow()
+    to = now.strftime("%Y-%m-%dT23:59:59Z")
+    from_date = f"{now.year - 1}-{now.month:02d}-{now.day:02d}T00:00:00Z"
+
+    resp = requests.post(
+        GRAPHQL_URL,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+        json={"query": QUERY, "variables": {"from": from_date, "to": to}},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    payload = resp.json()
+    if payload.get("errors"):
+        raise RuntimeError(payload["errors"])
+
+    viewer = payload["data"]["viewer"]
+    if viewer["login"].lower() != username.lower():
+        raise RuntimeError(
+            f"Token user {viewer['login']} does not match GH_USERNAME {username}"
+        )
+
+    calendar = viewer["contributionsCollection"]["contributionCalendar"]
+    total = calendar["totalContributions"]
+    days = []
+    for week in calendar["weeks"]:
+        for day in week["contributionDays"]:
+            count = day["contributionCount"]
+            days.append(
+                {
+                    "date": day["date"],
+                    "count": count,
+                    "level": min(4, count) if count else 0,
+                }
+            )
+
+    days.sort(key=lambda d: d["date"])
+    return total, days, "graphql_private"
 
 
 def fetch_html(username: str) -> str:
@@ -29,12 +92,11 @@ def fetch_html(username: str) -> str:
     return resp.text
 
 
-def parse(html: str):
-    soup = BeautifulSoup(html, "html.parser")
-
+def parse_public(html: str):
     total_match = re.search(r"([\d,]+)\s*\n?\s*contributions?\s+in the last year", html)
     total = int(total_match.group(1).replace(",", "")) if total_match else None
 
+    soup = BeautifulSoup(html, "html.parser")
     days = []
     for td in soup.select("td[data-date]"):
         date_str = td.get("data-date")
@@ -53,14 +115,13 @@ def parse(html: str):
         days.append({"date": date_str, "count": count, "level": level})
 
     days.sort(key=lambda d: d["date"])
-    return total, days
+    return total, days, "public_scrape"
 
 
 def derive_stats(days):
     counts = [d["count"] for d in days]
     total = sum(counts)
 
-    # current streak (walking back from most recent day with data)
     current_streak = 0
     for d in reversed(days):
         if d["count"] > 0:
@@ -68,7 +129,6 @@ def derive_stats(days):
         else:
             break
 
-    # longest streak
     longest_streak = 0
     running = 0
     for d in days:
@@ -79,12 +139,11 @@ def derive_stats(days):
             running = 0
 
     best_day = max(days, key=lambda d: d["count"]) if days else None
-
     active_days = sum(1 for d in days if d["count"] > 0)
 
     monthly = {}
     for d in days:
-        month_key = d["date"][:7]  # YYYY-MM
+        month_key = d["date"][:7]
         monthly[month_key] = monthly.get(month_key, 0) + d["count"]
 
     return {
@@ -99,14 +158,27 @@ def derive_stats(days):
 
 def main():
     username = USERNAME
-    print(f"Fetching contributions for {username}...")
-    html = fetch_html(username)
-    total, days = parse(html)
-    stats = derive_stats(days)
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    source = "public_scrape"
 
+    print(f"Fetching contributions for {username}...")
+    if token:
+        try:
+            total, days, source = fetch_graphql(token, username)
+            print(f"GraphQL (private included): {total} contributions")
+        except Exception as exc:
+            print(f"GraphQL failed ({exc}), falling back to public scrape")
+            html = fetch_html(username)
+            total, days, source = parse_public(html)
+    else:
+        html = fetch_html(username)
+        total, days, source = parse_public(html)
+
+    stats = derive_stats(days)
     payload = {
         "username": username,
         "generated_at": datetime.utcnow().isoformat() + "Z",
+        "source": source,
         "total_from_page": total,
         "days": days,
         "stats": stats,
@@ -116,8 +188,10 @@ def main():
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=2)
 
-    print(f"Wrote {OUT_PATH}: {len(days)} days, total={total}, "
-          f"current_streak={stats['current_streak']}, longest_streak={stats['longest_streak']}")
+    print(
+        f"Wrote {OUT_PATH}: {len(days)} days, total={total}, "
+        f"current_streak={stats['current_streak']}, longest_streak={stats['longest_streak']}"
+    )
 
 
 if __name__ == "__main__":
