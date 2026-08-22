@@ -20,10 +20,10 @@ OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.
 GRAPHQL_URL = "https://api.github.com/graphql"
 
 QUERY = """
-query($from: DateTime!, $to: DateTime!) {
+query {
   viewer {
     login
-    contributionsCollection(from: $from, to: $to) {
+    contributionsCollection {
       contributionCalendar {
         totalContributions
         weeks {
@@ -40,17 +40,13 @@ query($from: DateTime!, $to: DateTime!) {
 
 
 def fetch_graphql(token: str, username: str):
-    now = datetime.utcnow()
-    to = now.strftime("%Y-%m-%dT23:59:59Z")
-    from_date = f"{now.year - 1}-{now.month:02d}-{now.day:02d}T00:00:00Z"
-
     resp = requests.post(
         GRAPHQL_URL,
         headers={
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
         },
-        json={"query": QUERY, "variables": {"from": from_date, "to": to}},
+        json={"query": QUERY},
         timeout=30,
     )
     resp.raise_for_status()
@@ -158,7 +154,11 @@ def derive_stats(days):
 
 def main():
     username = USERNAME
-    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    token = (
+        os.environ.get("GH_CONTRIBUTIONS_PAT")
+        or os.environ.get("GH_TOKEN")
+        or os.environ.get("GITHUB_TOKEN")
+    )
     source = "public_scrape"
 
     print(f"Fetching contributions for {username}...")

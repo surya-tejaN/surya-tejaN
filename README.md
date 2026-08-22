@@ -285,7 +285,16 @@ Shipped production features across mobile + backend for a hormonal health consum
 ## Contribution Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/main/contrib-heatmap.svg" alt="Contribution heatmap (private + org included)" width="100%" />
+
+![Contributions](https://img.shields.io/badge/547-contributions%20(last%20year)-7C3AED?style=for-the-badge&logo=github&logoColor=white)
+![Private](https://img.shields.io/badge/includes-private%20%2B%20org%20work-111827?style=for-the-badge)
+
+<br/><br/>
+
+<a href="https://github.com/surya-tejaN">
+  <img src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/main/contrib-heatmap.svg" alt="Contribution heatmap" width="100%" />
+</a>
+
 </div>
 
 <br/>
