@@ -40,9 +40,8 @@ Software Engineer and AI / ML Engineer focused on shipping **production-grade fu
 I work across the stack — React / TypeScript on the client, FastAPI / Node / Supabase on the backend, and LLM / RAG / agent pipelines when product needs intelligence. I care about reliability, clean API boundaries, and iterating with real users in production.
 
 **Open To**
-- **Software Engineer** (Full-Stack / Backend / Product Engineering)
-- **AI / ML Engineer** (LLMs, RAG, agents, applied ML)
-- Summer 2027 internships and full-time roles
+- **Full-time Software Engineer** roles (now)
+- **Full-time AI / ML Engineer** roles (now)
 - Collaboration on systems, AI infra, and production product engineering
 
 ---
@@ -278,21 +277,19 @@ Shipped production features across mobile + backend for a hormonal health consum
 ## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api?username=surya-tejaN&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=818CF8&text_color=E5E7EB&ring_color=7C3AED&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=surya-tejaN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&count_private=true" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats-plus.vercel.app/api/top-langs/?username=surya-tejaN&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB&count_private=true&include_all_commits=true" alt="Most Used Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=surya-tejaN&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=surya-tejaN&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&count_private=true" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=surya-tejaN&theme=radical" alt="Summary Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=surya-tejaN&theme=radical" alt="Repos per language" />
 </div>
 
 ---
@@ -313,26 +310,12 @@ Shipped production features across mobile + backend for a hormonal health consum
 
 ---
 
-## Contribution Snake
-
-> Public-grid snake only. Private / org commits (bulk of the **547**) do not appear here unless a private-access token is configured in the workflow.
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/surya-tejaN/surya-tejaN/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
-
 ## Current Focus
 
 ```yaml
 target_roles:
-  - Software Engineer (Full-Stack / Backend / Product)
-  - AI / ML Engineer (LLMs, RAG, Agents, Applied ML)
+  - Full-time Software Engineer (now)
+  - Full-time AI / ML Engineer (now)
 
 learning:
   - Distributed systems & system design
@@ -350,7 +333,8 @@ exploring:
   - Real-time collaboration engines
 
 open_to:
-  - SWE and AI/ML internships / full-time (Summer 2027+)
+  - Full-time Software Engineer roles (now)
+  - Full-time AI / ML Engineer roles (now)
 ```
 
 ---
