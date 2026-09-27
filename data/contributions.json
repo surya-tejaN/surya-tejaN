@@ -1,44 +1,9 @@
 {
   "username": "surya-tejaN",
-  "generated_at": "2026-09-26T11:26:47.138153Z",
+  "generated_at": "2026-09-27T12:04:26.798609Z",
   "source": "graphql_private",
   "total_from_page": 517,
   "days": [
-    {
-      "date": "2025-09-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-22",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-23",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-24",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-25",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-26",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-09-27",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-09-28",
       "count": 0,
@@ -1856,6 +1821,11 @@
     },
     {
       "date": "2026-09-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-09-27",
       "count": 0,
       "level": 0
     }
